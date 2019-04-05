@@ -28,9 +28,7 @@ Register for an account and explore the application at your leisure
 
 ### Tech Used
 
-```json
-{ "connectionId": 1, "userId": 1, "otherFriendId": 3 }
-```
+Vanilla JavaScript Browserify BootStrap
 
 ### Contributors
 
