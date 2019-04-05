@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Montserrat:400,500,700');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.output {
+    margin: 10px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+/********** Navigation *********/
+#navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+#logo {
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#logo a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color:#fff;
+}
+
+#nav_links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_links li {
+    font-size: 14px;
+    list-style: none;
+    padding-left: 20px;
+}
+
+#nav_links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav_links a:hover {
+    color: greenyellow;
+}
+
+.current_page a {
+    color: greenyellow !important;
+}
+
+
+/* Welcome and registration CSS */
+/* .welcome_container_background{
+    width: 100%;
+} */
+
+.welcome_container{
+    font-family: 'Coiny', cursive;
+    text-align: center;
+}
+
+.welcome_container h1{
+    color: yellowgreen;
+    font-size: 3rem;
+}
+
+.welcome_container input {
+    margin: 0px 5px;
+}
+
+.registration_container{
+    font-family: 'Coiny', cursive;
+}
+
+.registration_container h1{
+    font-size: 3rem;
+}
+
+.hereHyperLink{
+text-decoration: none;
+color:black
+}
+
+#loginButton{
+    font-family: 'Coiny';
+    font-size: 1.25rem;
+    border-radius: 3px;
+    padding: 0 1rem 0 1rem;
+}
+
+#submitNewUserButton{
+    font-family: 'Coiny';
+    font-size: 1.25rem;
+    border-radius: 3px;
+    padding: 0 1rem 0 1rem;
+}
+/*  */
+/* Task List */
+
+#taskList_entry{
+    border: 1px solid black;
+    padding: 15px
+}
+
+#goBackButton{
+    font-family: 'Coiny';
+    font-size: 1.25rem;
+    border-radius: 3px;
+    padding: 0 1rem 0 1rem;
+}
+
+/* News Articles */
+
+#news_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#news_top button {
+    padding: 10px;
+}
+
+#article_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.article_section {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 49%;
+    min-width: 300px;
+}
+
+.news_info {
+    padding: 10px;
+}
+
+.news_etc {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.news_author {
+    font-size: 12px;
+}
+
+.article_delete_btn {
+    border: 1px solid #ccc;
+    color: red;
+    background-color: white;
+    border-radius: 60px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 10px;
+    padding: 2px 4px 4px 4px;
+}
+
+.friend_article {
+    background-color: cornsilk;
+}
+
+.friend_article h3 {
+    font-style: italic;
+}
+
+#form_container fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+#form_container label {
+    float: left;
+    width: 80px;
+}
+
+/* end News Articles */
+
+/* Chat Styling */
+
+html, body {
+    height: 100%;
+}
+
+.chatroomDiv {
+    width: 90vw;
+    height: 75vh;
+    border: 1px solid black;
+    margin-left: 20px;
+    overflow-y:auto;
+}
+input:focus, textarea:focus {
+    outline: 0;
+}
+
+.messageInput {
+    border-radius: 25px;
+    height: 55px;
+    width: 410px;
+    margin-left: 24%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.chatTitle {
+    font-family: 'Coiny', cursive;
+}
+
+#messageSubmit {
+    border-radius: 25px;
+    background-color: green;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.messageEditInput {
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.userMessage {
+    display: flex;
+    border: 1px solid white;
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.usernameSection {
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 15px;
+    z-index: 1;
+    margin-top: -6vh;
+}
+
+ img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -20%;
+    margin-top: -1.5%;
+}
+
+/* .chatMessage {
+    border-bottom: 1px, red, solid;
+
+} */
+
+.userMessageContent {
+    border-radius: 20px;
+    background-color: #73AD21;
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+    /* align-self: flex-start; */
+
+}
+
+.messageEditButton {
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 8%;
+    height: 15px;
+    background-color:white;
+    margin-top: 4vh;
+    margin-left: 90%;
+
+
+}
+/* *****************************EVENT CSS***************************** */
+
+.posted--container {
+    border: 1px solid black;
+    width: 600px;
+}
+
+.event--outer--container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 145px;
+}
+
+.event--container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event--add {
+    width: 100px;
+}
+
+.add--event--form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first--event {
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: greenyellow !important;
+}
+
+.friend--event {
+    font-style: italic;
+    background-color: cornsilk;
+}
+
+
